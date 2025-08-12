@@ -1,4 +1,3 @@
-
 import { useState, useRef, useEffect } from 'react';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Send, Phone, Paperclip } from 'lucide-react';
@@ -130,7 +129,7 @@ const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
   disabled={!message.trim() || disabled}
   className={`p-2 rounded-full transition-all duration-300 hover:scale-110 ${
     message.trim() && !disabled
-      ? 'bg-blue-600/20 backdrop-blur-md border border-blue-400/20 text-white'
+      ? 'bg-pink-600/20 backdrop-blur-md border border-pink-400/20 text-white'
       : 'bg-slate-600/50 text-gray-400 cursor-not-allowed border border-slate-500/50'
   }`}
 >

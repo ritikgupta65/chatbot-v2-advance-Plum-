@@ -31,7 +31,7 @@ const NavigationBar: React.FC<NavigationBarProps> = ({ currentView, onNavigate }
               className={`flex flex-col items-center space-y-1 p-3 rounded-xl transition-all duration-300 min-w-[80px] hover:scale-105 ${
                 isActive 
                   // ? `bg-gradient-to-r ${theme.primaryGradient} text-white shadow-lg border border-white/30` 
-                  ? 'bg-blue-600/20 backdrop-blur-md border border-blue-400/20 text-white'
+                  ? 'bg-pink-600/20 backdrop-blur-md border border-pink-400/20 text-white'
 
                   : 'text-gray-400 hover:text-white hover:bg-white/10 border border-transparent hover:border-white/20'
               }`}

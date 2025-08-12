@@ -20,11 +20,11 @@ interface ThemeContextType {
 }
 
 const defaultTheme: ThemeConfig = {
-  primaryGradient: 'from-blue-600 via-purple-600 to-indigo-700',
-  secondaryGradient: 'from-blue-800 to-indigo-800',
-  accentColor: 'blue-500',
-  logoUrl: 'https://imgs.search.brave.com/LjbDTmdGnNX11RCeGZ7kTPdUMKtCgccfW9IV2GmuQWY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzMyLzY3LzU0/LzM2MF9GXzEzMjY3/NTQ1Nl8ySTFUMlFv/MGcxZmQzbzVwVXBQ/djU5UlVyQ0g1c2JX/bC5qcGc',
-  brandName: 'AI Assistant',
+  primaryGradient: 'from-pink-500 via-purple-500 to-pink-600',
+  secondaryGradient: 'from-pink-600 to-purple-600',
+  accentColor: 'pink-500',
+  logoUrl: 'https://plumgoodness.com/cdn/shop/files/plum-logo.svg?v=1614334215&width=120',
+  brandName: 'Plum Goodness',
   welcomeMessage: 'How can we help you today?',
   quickActions: ['Ask a question', 'Track my order', 'New arrivals', 'Get support']
 };
