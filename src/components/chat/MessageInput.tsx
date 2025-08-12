@@ -129,7 +129,7 @@ const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
   disabled={!message.trim() || disabled}
   className={`p-2 rounded-full transition-all duration-300 hover:scale-110 ${
     message.trim() && !disabled
-      ? 'bg-pink-600/20 backdrop-blur-md border border-pink-400/20 text-white'
+                  ? 'bg-green-600/20 backdrop-blur-md border border-green-400/20 text-white'
       : 'bg-slate-600/50 text-gray-400 cursor-not-allowed border border-slate-500/50'
   }`}
 >

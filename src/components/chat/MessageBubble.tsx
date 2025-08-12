@@ -134,7 +134,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ message }) => {
         {/* Message Bubble */}
         <div
           className={`relative p-3 rounded-2xl ${isUser
-            ? 'bg-pink-600/20 backdrop-blur-md border border-pink-400/20 text-white ml-auto'
+            ? 'bg-green-600/20 backdrop-blur-md border border-green-400/20 text-white ml-auto'
             : 'bg-white/10 backdrop-blur-md border border-white/20 text-white'} shadow-xl`}
         >
           {isProductRecommendation ? (
@@ -157,7 +157,7 @@ const MessageBubble: React.FC<MessageBubbleProps> = ({ message }) => {
           <div className={`absolute top-4 ${isUser ? 'right-0 translate-x-1' : 'left-0 -translate-x-1'}`}>
             <div
               className={`w-3 h-3 rotate-45 ${isUser
-                ? 'bg-pink-600/20 border-l border-t border-pink-400/20'
+                ? 'bg-green-600/20 border-l border-t border-green-400/20'
                 : 'bg-white/10 border-l border-t border-white/20'}`}
             ></div>
           </div>

@@ -20,9 +20,9 @@ interface ThemeContextType {
 }
 
 const defaultTheme: ThemeConfig = {
-  primaryGradient: 'from-pink-500 via-purple-500 to-pink-600',
-  secondaryGradient: 'from-pink-600 to-purple-600',
-  accentColor: 'pink-500',
+  primaryGradient: 'from-green-500 via-green-600 to-emerald-600',
+  secondaryGradient: 'from-green-600 to-emerald-600',
+  accentColor: 'green-500',
   logoUrl: 'https://plumgoodness.com/cdn/shop/files/plum-logo.svg?v=1614334215&width=120',
   brandName: 'Plum Goodness',
   welcomeMessage: 'How can we help you today?',

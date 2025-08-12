@@ -11,9 +11,9 @@ const CustomizationPanel: React.FC<CustomizationPanelProps> = ({ onClose }) => {
   const [activeTab, setActiveTab] = useState<'branding' | 'colors' | 'messages'>('branding');
 
   const gradientOptions = [
-    { name: 'Pink to Purple', value: 'from-pink-500 via-purple-500 to-pink-600' },
+    { name: 'Green to Emerald', value: 'from-green-500 via-green-600 to-emerald-600' },
     { name: 'Emerald to Lime', value: 'from-emerald-600 to-lime-500' },
-    { name: 'Pink to Rose', value: 'from-pink-600 to-rose-500' },
+    { name: 'Green to Teal', value: 'from-green-600 to-teal-500' },
     { name: 'Orange to Red', value: 'from-orange-600 to-red-500' },
     { name: 'Indigo to Blue', value: 'from-indigo-600 to-blue-500' },
     { name: 'Teal to Cyan', value: 'from-teal-600 to-cyan-500' },
